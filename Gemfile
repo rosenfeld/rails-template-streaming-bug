@@ -1,8 +1,11 @@
 source 'https://rubygems.org'
 
+gem 'puma'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 #gem 'rails', '4.1.1'
-gem 'rails', github: 'rails/rails', branch: '4-1-stable'
+#gem 'rails', github: 'rails/rails'#, branch: '4-1-stable'
+gem 'railties', github: 'rails/rails'#, branch: '4-1-stable'
 
 
 # Use SCSS for stylesheets
